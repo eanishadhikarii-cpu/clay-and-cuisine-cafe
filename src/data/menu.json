@@ -1,0 +1,278 @@
+{
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "COFFEE",
+      "subcategories": [
+        {
+          "name": "Coffee",
+          "items": [
+            { "name": "Black Coffee", "price": "90 / 130", "type": "veg" },
+            { "name": "Americano", "price": "100 / 120", "type": "veg" },
+            { "name": "Café Latte", "price": "140 / 160", "type": "veg" },
+            { "name": "Piccolo Latte", "price": "100", "type": "veg" },
+            { "name": "Cappuccino", "price": "140 / 160", "type": "veg" },
+            { "name": "Mocha / Mocha Madness", "price": "200", "type": "veg" },
+            { "name": "Caramel Macchiato", "price": "200", "type": "veg" },
+            { "name": "Matcha Latte (Hot)", "price": "250", "type": "veg" }
+          ]
+        },
+        {
+          "name": "Espresso",
+          "items": [
+            { "name": "Solo Ristretto", "price": "70", "type": "veg" },
+            { "name": "Solo", "price": "80", "type": "veg" },
+            { "name": "Solo Lungo", "price": "90", "type": "veg" },
+            { "name": "Doppio Ristretto", "price": "100", "type": "veg" },
+            { "name": "Doppio", "price": "110", "type": "veg" },
+            { "name": "Doppio Lungo", "price": "120", "type": "veg" },
+            { "name": "Espresso Macchiato", "price": "120", "type": "veg" },
+            { "name": "Espresso Con Panna", "price": "130", "type": "veg" },
+            { "name": "Espresso Affogato", "price": "150", "type": "veg" }
+          ]
+        },
+        {
+          "name": "Iced Coffee",
+          "items": [
+            { "name": "Iced Americano", "price": "120 / 150", "type": "veg" },
+            { "name": "Iced Café Latte", "price": "150 / 180", "type": "veg" },
+            { "name": "Iced Cappuccino", "price": "160 / 180", "type": "veg" },
+            { "name": "Iced Caramel Macchiato", "price": "220", "type": "veg" },
+            { "name": "Iced Mocha Madness", "price": "220", "type": "veg" }
+          ]
+        },
+        {
+          "name": "Fresh & Icy",
+          "items": [
+            { "name": "Peach Iced Tea", "price": "190", "type": "veg" },
+            { "name": "Lemon Iced Tea", "price": "125 / 190", "type": "veg" },
+            { "name": "Mint Lemonade", "price": "200", "type": "veg" },
+            { "name": "Blended Lemonade / Mint", "price": "200", "type": "veg" },
+            { "name": "Iced Matcha Latte (Flavour)", "price": "300", "type": "veg" },
+            { "name": "Iced Strawberry Matcha", "price": "350", "type": "veg" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "FOOD",
+      "subcategories": [
+        {
+          "name": "MOMO",
+          "items": [
+            { "name": "Steam Momo", "price": "160 / 200", "type": "Veg / Chicken" },
+            { "name": "Kothey Momo", "price": "230 / 260", "type": "Veg / Chicken" },
+            { "name": "Jhol Momo", "price": "220 / 250", "type": "Veg / Chicken" },
+            { "name": "Chilly Momo", "price": "230 / 280", "type": "Veg / Chicken" },
+            { "name": "Fry Momo", "price": "210 / 230", "type": "Veg / Chicken" }
+          ]
+        },
+        {
+          "name": "Soup",
+          "items": [
+            { "name": "Machow Soup", "price": "250 / 320", "type": "Veg / Chicken" },
+            { "name": "Hot & Sour Soup", "price": "240 / 320", "type": "Veg / Chicken" },
+            { "name": "Clear Soup", "price": "175 / 220", "type": "Veg / Chicken" }
+          ]
+        },
+        {
+          "name": "Salads",
+          "items": [
+            { "name": "Fruit Salad", "price": "350", "type": "veg" },
+            { "name": "Green Salad", "price": "170", "type": "veg" },
+            { "name": "Nepali Salad", "price": "150", "type": "veg" }
+          ]
+        },
+        {
+          "name": "Main Course",
+          "items": [
+            { "name": "Paneer Butter Masala", "price": "340", "type": "veg" },
+            { "name": "Matar Paneer", "price": "320", "type": "veg" },
+            { "name": "Mutton Rogan Josh", "price": "410", "type": "non-veg" },
+            { "name": "Chicken Curry", "price": "380", "type": "non-veg" },
+            { "name": "Biryani", "price": "310 / 390", "type": "Veg / Chicken" },
+            { "name": "Jeera Rice", "price": "100", "type": "veg" }
+          ]
+        },
+        {
+          "name": "Khana Set (Thakali)",
+          "items": [
+            { "name": "Chicken Khana", "price": "450", "type": "non-veg" },
+            { "name": "Mutton Khana", "price": "550", "type": "non-veg" },
+            { "name": "Fish Khana", "price": "450", "type": "non-veg" },
+            { "name": "Veg Khana", "price": "350", "type": "veg" }
+          ]
+        },
+        {
+          "name": "Clay & Cuisine Special",
+          "items": [
+            { "name": "Veg Platter", "price": "600", "type": "veg" },
+            { "name": "Chicken Platter", "price": "850", "type": "non-veg" },
+            { "name": "Quesadilla", "price": "450 / 520", "type": "Veg / Non-Veg" },
+            { "name": "Chicken Nuggets", "price": "370", "type": "non-veg" },
+            { "name": "Veg Govi Chilly", "price": "320", "type": "veg" }
+          ]
+        },
+        {
+          "name": "Khaja Set",
+          "items": [
+            { "name": "Thakali Bhutan Khaja Set", "price": "400", "type": "non-veg" },
+            { "name": "Thakali Veg Set", "price": "300", "type": "veg" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appetizers-veg",
+      "name": "Appetizers (Veg)",
+      "subcategories": [
+        {
+          "name": "Appetizers (Veg)",
+          "items": [
+            { "name": "Bhatmas Sadeko", "price": "120", "type": "veg" },
+            { "name": "Wai Wai Sadeko", "price": "100", "type": "veg" },
+            { "name": "Peanut Sadeko", "price": "130", "type": "veg" },
+            { "name": "Chatpate (Nepali Style)", "price": "150", "type": "veg" },
+            { "name": "Chatpate (Pan Fry)", "price": "130", "type": "veg" },
+            { "name": "Chana Lasun", "price": "250", "type": "veg" },
+            { "name": "Corn Salt & Pepper", "price": "280", "type": "veg" },
+            { "name": "French Fries (Salted)", "price": "190", "type": "veg" },
+            { "name": "French Fries (Peri-Peri)", "price": "210", "type": "veg" },
+            { "name": "Paneer Chilly", "price": "350", "type": "veg" },
+            { "name": "Mushroom Chilly", "price": "320", "type": "veg" },
+            { "name": "Paneer Pakoda", "price": "290", "type": "veg" },
+            { "name": "Veg Pakoda", "price": "220", "type": "veg" },
+            { "name": "Onion Pakoda", "price": "250", "type": "veg" },
+            { "name": "Mustang Aloo", "price": "300", "type": "veg" },
+            { "name": "Govi Chilly", "price": "320", "type": "veg" },
+            { "name": "Veg Katti Roll", "price": "180", "type": "veg" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appetizers-non-veg",
+      "name": "Appetizers (Non-Veg)",
+      "subcategories": [
+        {
+          "name": "Chicken",
+          "items": [
+            { "name": "Chicken Chatpate", "price": "250", "type": "non-veg" },
+            { "name": "Chicken Lollipop", "price": "400", "type": "non-veg" },
+            { "name": "Chicken Sadeko", "price": "390 / 410", "type": "Boil / Fry" },
+            { "name": "Chicken Chilly", "price": "330", "type": "non-veg" },
+            { "name": "Chicken Choila", "price": "390", "type": "non-veg" },
+            { "name": "Chicken Taas", "price": "380", "type": "non-veg" },
+            { "name": "Chicken Keema Noodles", "price": "320", "type": "non-veg" },
+            { "name": "Jateh Kalejo", "price": "300", "type": "non-veg" },
+            { "name": "Chicken Katti Roll", "price": "230", "type": "non-veg" },
+            { "name": "Chicken Roll", "price": "250", "type": "non-veg" },
+            { "name": "Chicken Sausage", "price": "300", "type": "non-veg" }
+          ]
+        },
+        {
+          "name": "Mutton",
+          "items": [
+            { "name": "Mutton Taas", "price": "480", "type": "non-veg" },
+            { "name": "Mutton Bhutan", "price": "490", "type": "non-veg" },
+            { "name": "Mutton Fry Sadeko", "price": "480", "type": "non-veg" },
+            { "name": "Mutton Boil", "price": "450", "type": "non-veg" }
+          ]
+        },
+        {
+          "name": "Fish Items",
+          "items": [
+            { "name": "Fish Taha", "price": "480", "type": "non-veg" },
+            { "name": "Steam Fish", "price": "500", "type": "non-veg" },
+            { "name": "Fish Fry", "price": "380", "type": "non-veg" },
+            { "name": "Fish Pakoda", "price": "290", "type": "non-veg" },
+            { "name": "Fish & Chips", "price": "320", "type": "non-veg" }
+          ]
+        },
+        {
+          "name": "Burger / Sandwich",
+          "items": [
+            { "name": "Veg Burger", "price": "290", "type": "veg" },
+            { "name": "Chicken Burger", "price": "350", "type": "non-veg" },
+            { "name": "Veg Sandwich", "price": "250", "type": "veg" },
+            { "name": "Chicken Sandwich", "price": "350", "type": "non-veg" }
+          ]
+        },
+        {
+          "name": "Wings",
+          "items": [
+            { "name": "Dry Chicken Wings", "price": "450", "type": "non-veg" },
+            { "name": "Sauce Chicken Wings", "price": "450", "type": "non-veg" }
+          ]
+        },
+        {
+          "name": "Rice & Noodles",
+          "items": [
+            { "name": "Fried Rice", "price": "180 / 250", "type": "Veg / Chicken" },
+            { "name": "Noodles", "price": "180 / 250", "type": "Veg / Chicken" },
+            { "name": "Thukpa", "price": "210 / 280", "type": "Veg / Chicken" },
+            { "name": "Current Noodles", "price": "160 / 130", "type": "Egg / Without Egg" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mocktails",
+      "name": "Mocktails & Soft Drinks",
+      "subcategories": [
+        {
+          "name": "Cold Drinks & Juices",
+          "items": [
+            { "name": "Fresh Juice", "price": "250", "type": "veg" },
+            { "name": "Apple Juice", "price": "180", "type": "veg" },
+            { "name": "Orange Juice", "price": "190", "type": "veg" },
+            { "name": "Mix Fruit Juice", "price": "205", "type": "veg" },
+            { "name": "Real Juice", "price": "190", "type": "veg" },
+            { "name": "Coke / Sprite / Fanta", "price": "70", "type": "veg" },
+            { "name": "Masala Coke", "price": "110", "type": "veg" },
+            { "name": "Soda", "price": "70", "type": "veg" },
+            { "name": "Water", "price": "35", "type": "veg" },
+            { "name": "Red Bull", "price": "350", "type": "veg" },
+            { "name": "Apple Cider", "price": "250", "type": "veg" },
+            { "name": "Ginger Ale", "price": "130", "type": "veg" },
+            { "name": "Tonic Water", "price": "130", "type": "veg" }
+          ]
+        },
+        {
+          "name": "Mocktails",
+          "items": [
+            { "name": "Orange Purple (Special)", "price": "310", "type": "veg" },
+            { "name": "Green Sea (Special)", "price": "320", "type": "veg" },
+            { "name": "Strawberry Purple", "price": "325", "type": "veg" },
+            { "name": "Sunrise", "price": "310", "type": "veg" },
+            { "name": "Strawberry Blue", "price": "330", "type": "veg" },
+            { "name": "Red Raider", "price": "320", "type": "veg" },
+            { "name": "Anchan Lemon Soda", "price": "315", "type": "veg" },
+            { "name": "Coconut Fizz", "price": "310", "type": "veg" },
+            { "name": "Virgin Mojito", "price": "290", "type": "veg" },
+            { "name": "Classic Shirley Temple (Special)", "price": "350", "type": "veg" },
+            { "name": "Black Currant (Special)", "price": "310", "type": "veg" },
+            { "name": "Double Dose (Special)", "price": "350", "type": "veg" }
+          ]
+        },
+        {
+          "name": "Shakes & Frappes",
+          "items": [
+            { "name": "KitKat Milkshake", "price": "250", "type": "veg" },
+            { "name": "Strawberry Milkshake", "price": "220", "type": "veg" },
+            { "name": "Coffee Frappe", "price": "250", "type": "veg" },
+            { "name": "Vanilla Frappe", "price": "260", "type": "veg" },
+            { "name": "Mocha Frappe", "price": "260", "type": "veg" },
+            { "name": "Choco-Oreo Frappe", "price": "280", "type": "veg" },
+            { "name": "Dry Fruit Smoothie", "price": "350", "type": "veg" },
+            { "name": "Chocolate Milkshake", "price": "250", "type": "veg" },
+            { "name": "Oreo Milkshake", "price": "250", "type": "veg" },
+            { "name": "Vanilla Milkshake", "price": "220", "type": "veg" },
+            { "name": "KitKat Frappe", "price": "320", "type": "veg" }
+          ]
+        }
+      ]
+    }
+  ]
+}

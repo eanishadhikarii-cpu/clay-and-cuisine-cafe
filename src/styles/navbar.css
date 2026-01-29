@@ -1,0 +1,118 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: var(--white);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar.scrolled {
+  box-shadow: 0 2px 20px var(--shadow);
+  border-bottom: 1px solid rgba(107, 142, 107, 0.1);
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--plum-green);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.logo-icon {
+  font-size: 1.5rem;
+  color: var(--plum-green);
+  animation: steam 2s ease-in-out infinite;
+  filter: drop-shadow(0 2px 4px rgba(107, 142, 107, 0.3));
+}
+
+@keyframes steam {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  25% { transform: translateY(-2px) rotate(-2deg); }
+  75% { transform: translateY(-1px) rotate(2deg); }
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  background: none;
+  border: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-transform: capitalize;
+}
+
+.nav-link:hover {
+  color: var(--plum-green);
+}
+
+.mobile-toggle {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.mobile-toggle span {
+  width: 25px;
+  height: 3px;
+  background: var(--plum-green);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: var(--white);
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: 0 5px 20px var(--shadow);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .nav-links.active {
+    transform: translateX(0);
+  }
+
+  .mobile-toggle {
+    display: flex;
+  }
+
+  .nav-link {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(107, 142, 107, 0.1);
+  }
+}

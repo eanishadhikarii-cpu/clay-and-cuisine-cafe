@@ -1,0 +1,79 @@
+:root {
+  --plum-green: #6B8E6B;
+  --white: #FFFFFF;
+  --text-dark: #2C2C2C;
+  --shadow: rgba(107, 142, 107, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+  background-color: var(--white);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+  color: var(--plum-green);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border: 2px solid var(--plum-green);
+  background: var(--plum-green);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--plum-green);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--plum-green);
+}
+
+.btn-outline:hover {
+  background: var(--plum-green);
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+}

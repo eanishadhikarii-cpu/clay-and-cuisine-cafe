@@ -1,0 +1,183 @@
+.booking-table-section {
+  background: rgba(107, 142, 107, 0.02);
+  padding: 80px 0;
+}
+
+.booking-table {
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 0.8fr 1fr;
+  gap: 2rem;
+  padding: 0 2rem 2rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--plum-green);
+  opacity: 0.7;
+}
+
+.booking-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.booking-card {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 0.8fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(107, 142, 107, 0.08);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.booking-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(107, 142, 107, 0.15);
+}
+
+.guest-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--plum-green);
+}
+
+.booking-type span,
+.booking-date span,
+.booking-time span,
+.booking-guests span {
+  font-size: 0.95rem;
+  color: var(--text-dark);
+  opacity: 0.8;
+  font-weight: 400;
+}
+
+.booking-guests span {
+  text-align: center;
+  display: block;
+}
+
+.status {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.status.confirmed {
+  color: var(--plum-green);
+  background: rgba(107, 142, 107, 0.1);
+}
+
+.status.pending {
+  color: var(--plum-green);
+  background: var(--white);
+  border: 1px solid rgba(107, 142, 107, 0.3);
+  opacity: 0.7;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .table-header {
+    display: none;
+  }
+  
+  .booking-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+  }
+  
+  .booking-guest {
+    border-bottom: 1px solid rgba(107, 142, 107, 0.1);
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .guest-name {
+    font-size: 1.2rem;
+  }
+  
+  .booking-type,
+  .booking-date,
+  .booking-time,
+  .booking-guests {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  
+  .booking-type::before {
+    content: "Experience:";
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--plum-green);
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .booking-date::before {
+    content: "Date:";
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--plum-green);
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .booking-time::before {
+    content: "Time:";
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--plum-green);
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .booking-guests::before {
+    content: "Guests:";
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--plum-green);
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .booking-status {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(107, 142, 107, 0.1);
+  }
+  
+  .status {
+    display: inline-block;
+    width: auto;
+  }
+}

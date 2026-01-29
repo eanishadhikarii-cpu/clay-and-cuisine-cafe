@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/send-booking-email.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "EMAIL_USER": "@email_user",
+    "EMAIL_PASS": "@email_pass", 
+    "BUSINESS_EMAIL": "@business_email"
+  }
+}

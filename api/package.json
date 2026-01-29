@@ -1,0 +1,15 @@
+{
+  "name": "clay-cuisine-cafe-api",
+  "version": "1.0.0",
+  "description": "Serverless API for Clay and Cuisine Cafe",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["serverless", "email", "booking"],
+  "author": "Clay and Cuisine Cafe",
+  "license": "MIT"
+}

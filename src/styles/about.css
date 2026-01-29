@@ -1,0 +1,134 @@
+.about {
+  background: linear-gradient(135deg, var(--white) 0%, rgba(107, 142, 107, 0.03) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(107, 142, 107, 0.05) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about-text h3 {
+  font-size: 2.5rem;
+  color: var(--plum-green);
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+  text-align: justify;
+}
+
+.about-text p:first-of-type {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--plum-green);
+  opacity: 1;
+}
+
+.about-tagline {
+  text-align: center;
+  font-style: italic;
+  color: var(--plum-green);
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(107, 142, 107, 0.05);
+  border-radius: 15px;
+  border-left: 4px solid var(--plum-green);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.about-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-card {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(107, 142, 107, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.photo-card:hover {
+  transform: translateY(-5px);
+}
+
+.photo-placeholder {
+  aspect-ratio: 4/3;
+  background: linear-gradient(135deg, rgba(107, 142, 107, 0.1) 0%, rgba(107, 142, 107, 0.2) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  color: var(--plum-green);
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 2px solid rgba(107, 142, 107, 0.2);
+}
+
+@media (max-width: 768px) {
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .photo-card {
+    max-width: 300px;
+  }
+}
+
+.about-bottom {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.about-bottom p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
