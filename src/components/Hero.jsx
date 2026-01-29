@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/hero.css';
+import heroImage from '../assets/images/WhatsApp Image 2026-01-06 at 7.33.21 PM.jpeg';
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -8,6 +9,9 @@ const Hero = () => {
 
   return (
     <section id="home" className="hero">
+      <div className="hero-background">
+        <img src={heroImage} alt="Clay & Cuisine Cafe" loading="eager" />
+      </div>
       <div className="container">
         <div className="hero-content">
           <h1 className="hero-title">Clay & Cuisine Cafe</h1>

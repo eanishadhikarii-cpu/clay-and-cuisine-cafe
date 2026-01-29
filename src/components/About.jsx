@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/about.css';
+import aboutImage from '../assets/images/WhatsApp Image 2026-01-06 at 7.33.29 PM.jpeg';
 
 const About = () => {
   return (
@@ -19,9 +20,7 @@ const About = () => {
             </div>
             <div className="about-photo">
               <div className="photo-card">
-                <div className="photo-placeholder">
-                  <span>Elegant café interior with clay art displays and refined dining atmosphere</span>
-                </div>
+                <img src={aboutImage} alt="Elegant café interior with clay art displays" loading="lazy" />
               </div>
             </div>
           </div>
